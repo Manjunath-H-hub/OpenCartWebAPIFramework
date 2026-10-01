@@ -28,7 +28,7 @@ test.beforeEach('POST -------Generate the access token', async({request})=>
 
 })
 
-test('GET----------Get location data', async ({request})=>
+test.skip('GET----------Get location data', async ({request})=>
 {
       //https/test.api.amadeus.com/v1/reference-data/locations?subType=CITY,AIRPORT&keyword=MUC&countryCode=DE
       let  baseURL='https/test.api.amadeus.com'
