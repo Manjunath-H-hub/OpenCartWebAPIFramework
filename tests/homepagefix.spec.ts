@@ -47,3 +47,5 @@ test('Footers exists on the product page', async({basePage})=>
 {
    expect(await basePage.getPageFooterCount()).toBe(16)
 })
+
+// Additional comment is added in the home page for reference
